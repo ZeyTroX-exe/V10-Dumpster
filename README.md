@@ -1,5 +1,5 @@
 # V10-Dumpster (Go)
-*A fast Chromium password extractor for Windows and Linux.*
+*A fast Chromium password extractor for Windows*
 
 ## Features
  - Extracts saved passwords from Chrome, Edge, Brave
