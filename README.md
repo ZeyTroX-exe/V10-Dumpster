@@ -14,13 +14,13 @@ cmd'''
 '''
 
 Build from Source
-cmd'''
+'''
 git clone https://github.com/ZeyTroX-exe/V10-Dumpster.git
 '''
-cmd'''
+'''
 cd V10-Dumpster
 '''
-cmd'''
+'''
 go build -o v10-dumpster
 '''
 
