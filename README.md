@@ -1,4 +1,4 @@
-# V10-Dumpster (Go)
+# v10-Dumpster (Go)
 *A fast Chromium password extractor for Windows*
 
 ## Features
