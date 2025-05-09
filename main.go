@@ -20,14 +20,6 @@ var (
 	APPDATA = os.Getenv("APPDATA")
 	LOCAL   = os.Getenv("LOCALAPPDATA")
 
-	USER_PATHS = [5]string{
-		filepath.Join(LOCAL, "BraveSoftware", "Brave-Browser", "User Data"),
-		filepath.Join(),
-		filepath.Join(LOCAL, "Microsoft", "Edge", "User Data"),
-		filepath.Join(APPDATA, "Opera Software", "Opera Stable"),
-		filepath.Join(APPDATA, "Opera Software", "Opera GX Stable"),
-	}
-
 	LOCAL_PATHS = [5]string{
 		filepath.Join(LOCAL, "BraveSoftware", "Brave-Browser", "User Data", "Local State"),
 		filepath.Join(LOCAL, "Google", "Chrome", "User Data", "Local State"),
