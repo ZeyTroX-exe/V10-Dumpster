@@ -13,11 +13,11 @@
 ## Download:
 ```
 git clone https://github.com/ZeyTroX-exe/V10-Dumpster.git
-```
-```
+
 cd V10-Dumpster
-```
-```
+
+go mod tidy
+
 go build -o v10-dumpster .\main.go
 ```
 
